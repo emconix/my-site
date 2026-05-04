@@ -173,7 +173,7 @@
 					if (page < 1 || page > totalPages) return;
 					currentPage = page;
 					renderDisplay(currentPage);
-					window.scrollTo({ top: document.getElementById('wrapper').offsetTop, behavior: 'smooth' });
+					//window.scrollTo({ top: document.getElementById('wrapper').offsetTop, behavior: 'smooth' });
 				}
 
 				window.onload = () => renderDisplay(1);
