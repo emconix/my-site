@@ -7,11 +7,6 @@ document.addEventListener('contextmenu', function(e) {
   e.preventDefault();
 });
 
-// 2. 드래그 방지
-document.addEventListener('dragstart', function(e) {
-  e.preventDefault();
-});
-
 // 3. 복사 및 개발자 도구 단축키 방지
 document.onkeydown = function(e) {
   // F12 방지
