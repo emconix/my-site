@@ -1,6 +1,13 @@
 // 프로젝트 데이터 "데이터베이스"
 const projects = [
     {
+        title: "Linux기반 Data수집장치",
+        img: "images/project/pjt-12.jpg",
+        desc: "산업용 Embedded 장치를 위한 시스템으로 AI시스템 구동 및 센서 제어장치 입니다.<br>정확한 Time interval 제어 및 측정이 필요하고 소형 OS환경이 필요하여 Linux 시스템을 적용 하였습니다.",
+        features1: ["Linux Ubuntu", "HDMI&LAN 인터페이스 PCB설계", "Python 및 GUI프로그램"],
+        features2: ["0 ~ 20mA 정밀 측정", "대용량 Raw-data", "기구 설계"]
+    },
+    {
         title: "메트릭스 검사기",
         img: "images/project/pjt-01.jpg",
         desc: "익숙한 환경의 윈도우 적용하여 작업 효율을 높이고 Raw-data를 즉각 확인하여 빠른 원인 파악에 도움을 줍니다.<br>USB-C케이블로 PD충전과 통신을 동시에 지원하여 장시간 사용에도 베터리 관리에 유리 합니다.",
@@ -76,34 +83,6 @@ const projects = [
         desc: "차량용 맵 정보 장치 양산용 EOL 검사기",
         features1: ["Map simulator 통신 제어", "Analog ↔ Digital 신호 변환", "안전 센서 및 사용자 설정 운영 시스템 적용"],
         features2: ["19inch Rack 설계 제작", "제품 안착 위치 센서 및 기타 보호 회로 적용", "특징 E"]
-    },
-    {
-        title: "",
-        img: "",
-        desc: "",
-        features1: ["", "", ""],
-        features2: ["", "", ""]
-    },
-    {
-        title: "",
-        img: "",
-        desc: "",
-        features1: ["", "", ""],
-        features2: ["", "", ""]
-    },
-    {
-        title: "",
-        img: "",
-        desc: "",
-        features1: ["", "", ""],
-        features2: ["", "", ""]
-    },
-    {
-        title: "",
-        img: "",
-        desc: "",
-        features1: ["", "", ""],
-        features2: ["", "", ""]
     },
     // 1페이지 5개분량을 쭉 작성합니다.
 ];
