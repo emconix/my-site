@@ -32,7 +32,7 @@ const projects = [
         title: "태양광 조명장치",
         img: "images/project/pjt-05.jpg",
         desc: "PV(Photovoltaics)를 이용한 40W급 태양광 LED 조명장치로 PV 및 LED등 다양한 상태를 모니터링하며 최상의 상태로 충/방전을 지원 하고 있습니다.",
-        features1: ["MPPT 베터리 충전 컨트롤", "과 충전 및 방전 보호", "CP&CV 자동 전환"],
+        features1: ["MPPT 베터리 충전 컨트롤", "과 충전 및 방전 보호", "CP&CV 충전모드 자동"],
         features2: ["LED 스케쥴 구동", "Self 자기 진단 및 알림", "외부 파라미터 입/출력"]
     },
     {
