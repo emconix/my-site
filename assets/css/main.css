@@ -4232,4 +4232,18 @@ input, select, textarea {
     	user-select: none;              /* 텍스트 및 이미지 선택 방지 */
     	-webkit-touch-callout: none;    /* iOS 길게 눌러서 메뉴 뜨는 것 방지 */
 	}
+
+@media screen and (max-width: 736px) {
+    .tech-section {
+      flex-direction: column;
+      gap: 40px;
+    }
   
+    .tech-section > div {
+      width: 100%;
+    }
+  
+    .tech-section > div > div {
+      width: 60%;
+    }
+  }
