@@ -4233,17 +4233,26 @@ input, select, textarea {
     	-webkit-touch-callout: none;    /* iOS 길게 눌러서 메뉴 뜨는 것 방지 */
 	}
 
+
+
 @media screen and (max-width: 736px) {
-    .tech-section {
-      flex-direction: column;
-      gap: 40px;
-    }
-  
-    .tech-section > div {
-      width: 100%;
-    }
-  
-    .tech-section > div > div {
-      width: 60%;
-    }
+
+  .tech-section {
+    flex-direction: column !important;
+    gap: 40px;
   }
+
+  .tech-section > div {
+    width: 100%;
+  }
+
+  .tech-section > div > div {
+    width: 60% !important;
+  }
+
+}
+
+.full-bg {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
